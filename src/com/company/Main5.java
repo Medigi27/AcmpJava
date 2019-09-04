@@ -1,9 +1,11 @@
+package com.company;
+
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class Main{ //имя класса должно быть Main
+public class Main5 { //имя класса должно быть Main
     public static void main(String[] argv) throws IOException{
         new Main().run();
     }
@@ -15,5 +17,6 @@ public class Main{ //имя класса должно быть Main
         pw = new PrintWriter(new File("output.txt"));
         pw.print(a+b);
         pw.close();
+        //kdjflkjskjfsdjfsdfsdf
     }
 }

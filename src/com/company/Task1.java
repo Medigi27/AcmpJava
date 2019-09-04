@@ -8,9 +8,12 @@ import java.util.*;
 public class Task1 {
     public static void main(String[] args) throws Exception {
         FileReader fr = new FileReader( "INPUT.TXT");
-        Scanner scan = new Scanner(fr);
+        Scanner sc = new Scanner(fr);
 
         String test;
+
+
+
 
 
 
