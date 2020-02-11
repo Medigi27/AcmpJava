@@ -1,10 +1,17 @@
 package com;
 
-public class Test {
+public class One {
     String go = "walk";
 
-    static class Bird extends Test {
+    static class Two extends One{
         String go = "fly";
     }
+
+    public static void main(String args[]) {
+        One f = new Two();
+        Two d = new Two();
+        System.out.println(f.go + d.go);
+    }
+
 }
 
