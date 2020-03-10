@@ -2,7 +2,7 @@ public class Jail {
     public static void main(String[] args) {
         System.out.println(findDivider(20,100));
     }
-    static int findDivider(int firstNumber, int SecondNumber){
+    static int findMaxDivider(int firstNumber, int SecondNumber){
 
         int lowerNumber = firstNumber <= SecondNumber ? firstNumber : SecondNumber;
         int largerNumber = firstNumber >= SecondNumber ? firstNumber : SecondNumber;
